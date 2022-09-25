@@ -1,4 +1,4 @@
-subjects = ["C", "C++", "Java", "Python", "Android","OS", "TOC"]
+subjects = ["C", "C++", "Java", "Python", "Android", "OS", "TOC"]
 print(len(subjects))
 
 subjects.append("JAHID")
@@ -19,7 +19,7 @@ print(subjects)
 subjects.pop()
 print(subjects)
 
-subjects2=subjects.copy()
+subjects2 = subjects.copy()
 print("Subjects2", subjects2)
 
 subjects2.clear()

@@ -17,5 +17,5 @@ def large(a, b):
 print("Large: ", large(20, 30))
 
 # Use valiable as funciton
-maximum=large
+maximum = large
 print("Large: ", maximum(20, 30))

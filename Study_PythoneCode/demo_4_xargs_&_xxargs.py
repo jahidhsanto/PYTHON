@@ -1,6 +1,8 @@
 # xargs
 def student(id, name):
     print(id, name)
+
+
 student(101, "Badhon")
 
 
@@ -8,6 +10,8 @@ student(101, "Badhon")
 def student(*details):  # This is works like tuples
     print(details)
     print(details[1])
+
+
 student(101, "Badhon")
 student(101, "Badhon", 3.75)
 
@@ -17,6 +21,8 @@ def add(*numbers):
     for x in numbers:
         sum = sum + x
     print(sum)
+
+
 add(10, 20)
 add(10, 20, 30)
 add(10, 20, 30, 40)
@@ -27,4 +33,6 @@ add(10, 20, 30, 40)
 def student(**love):
     print(love)
     print(love["name"])
+
+
 student(id=101, name="Asma")

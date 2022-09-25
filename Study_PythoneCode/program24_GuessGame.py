@@ -1,4 +1,5 @@
 from random import randint
+
 for x in range(1):
     guessNumber = int(input("Enter your guess between 1 to 5: "))
     randomNumber = randint(1, 5)

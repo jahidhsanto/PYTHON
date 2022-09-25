@@ -12,7 +12,7 @@ numOfDigits = 0
 
 text = input("Enter a text: ")
 for x in text:
-    x=x.lower()
+    x = x.lower()
     if x >= 'a' and x <= 'z':
         numOfLetters += 1
     elif x >= '0' and x <= '9':
@@ -21,4 +21,4 @@ for x in text:
         numOfWords += 1
 print("Number of letters: ", numOfLetters)
 print("Number of digits: ", numOfDigits)
-print("Number of words: ", numOfWords+1)
+print("Number of words: ", numOfWords + 1)
